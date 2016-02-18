@@ -1,0 +1,62 @@
+<html lang="en-US"; style="text-align:center">
+<head>
+	<title>Track Your Track! >>--> </title>
+</head>
+<body style="background-color:aliceblue; font-family:berlin sans fb;">
+<h1 style="font-size:160%; font-family:broadway" ><br><i>Track</i> your Track!   >>--></h1>
+<img src="track picture 1.jpg" width="104" height="142"> 
+<p title="Track Your Track!" style="font-size:115%;"> -Find your meet. <br> <br> -Get the schedule. <br> <br> -Get reminders to warm up. <br> <br> -Be a better athlete!  </p>
+<br/>
+
+<h2 style="font-size:150%;"> 	Meet Features  </h2>
+<p title="Meet Features"> Search for the meet your team is in.<br> Coaches can keep full team records following NCAA track and field rules. Know how your team did before the officals do! <br> 
+Click <a href="http://www.ncaa.org/championships/playing-rules/cross-country-and-track-and-field-rules-competition"> <mark>here</mark></a> to view the offical rules. 
+ </p> Athlete options to set pre-race warm up timers. Know your body and get reminded when it needs to get ready to compete! <br> Input individual times and keep athlete meet records. <br> 
+
+
+<h3 style="font-size:150%;"> Athlete Features </h3>
+<p title="Athlete Features"> Keep a record of your practices and count your total mileage.<br> Don't forget to use your split calculator to see what yout 400m, 800m, 1500m, 5k, 10k and any other split you need to know! <br> 
+Use the stop watch and timer to even time your competitors. <br>
+Keep track of how many miles you've ran into your shoes! <br> Set your career goals and get motivated to acheive them!</p>
+
+<h4 style="font-size:150%;"> Mock Screen Shots</h4>
+
+
+<script> 
+var counter=0;
+var description=new Array("Menu Page", "Profile Page", "Scoring Buttons Page", "Meet Score");
+var pictures= new Array(3);
+
+function imageArray(){
+pictures[0]=new Image(104,142);
+pictures[0].src="one.jpg";
+pictures[1]=new Image(104,142);
+pictures[1].src="two.jpg";
+pictures[2]=new Image(104,142);
+pictures[2].src="three.jpg";
+pictures[3]=new Image(104,142);
+pictures[3].src="four.jpg";
+}
+function upDate(){
+  counter++;
+  if (counter > 3){
+    counter = 0;
+  } 
+  i=document.getElementById("coolimage")
+  i.src = pictures[counter].src;
+
+} 
+
+</script>
+<body onLoad="imageArray()">
+<form name="myForm">
+<img id="coolimage" src="one.jpg" width="312" hieght="426" name="Menu Page">
+<br>
+<input type="button" value="next" onClick="upDate()">
+</form>
+</img>
+</input>
+</body>
+<p> <br> <br> <br> Want to learn more about the brains behind the opperation?? Click <a href="http://cs1.whitworth.edu/eparslow18/bios.html"> <mark> here</mark></a> for their bios!
+</body>
+</html>
