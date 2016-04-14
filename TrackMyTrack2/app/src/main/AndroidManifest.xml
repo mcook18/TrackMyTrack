@@ -28,6 +28,14 @@
             android:name=".ProfilePageEdit"
             android:label="@string/title_activity_profile_page_edit" >
         </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".StopWatch"
+            android:label="@string/title_activity_stop_watch" >
+        </activity>
     </application>
 
 </manifest>
