@@ -32,7 +32,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(Login.this.getBaseContext(), "Hey, we're going to the signup page!", Toast.LENGTH_LONG);
-                /*add link to signup page*/
+                startActivity(new Intent(Login.this, SignUpScreen.class));/*add link to signup page*/
             }
         });
     }

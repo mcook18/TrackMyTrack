@@ -7,6 +7,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+import android.content.Intent;
 
 public class ProfilePageEdit extends AppCompatActivity {
 
@@ -19,7 +20,7 @@ public class ProfilePageEdit extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(ProfilePageEdit.this.getBaseContext(), "Hey we're saving!", Toast.LENGTH_LONG);
-                /*add link to Profile or home page*/
+                startActivity(new Intent(ProfilePageEdit.this, Home.class));/*add link to Profile or home page, CURRENTLY LINKED TO THE INCORRECT PAGE*/
             }
         });
     }

@@ -7,6 +7,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+import android.content.Intent;
 
 public class SignUpScreen extends AppCompatActivity {
 
@@ -20,7 +21,7 @@ public class SignUpScreen extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(SignUpScreen.this.getBaseContext(), "Hey we're making our account!", Toast.LENGTH_LONG);
-                /*add link to menu page*/
+                startActivity(new Intent(SignUpScreen.this, Home.class));/*add link to menu page*/
             }
         });
     }
