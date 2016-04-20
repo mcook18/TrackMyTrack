@@ -9,7 +9,7 @@
     <ImageButton
         android:layout_width="169dp"
         android:layout_height="169dp"
-        android:id="@+id/profileIB"
+        android:id="@+id/ProfileIB"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -26,7 +26,7 @@
         android:layout_width="169dp"
         android:layout_height="169dp"
         android:id="@+id/StopwIB"
-        android:layout_below="@+id/profileIB"
+        android:layout_below="@+id/ProfileIB"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 

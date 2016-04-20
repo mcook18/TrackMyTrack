@@ -4,6 +4,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 public class ProfilePageEdit extends AppCompatActivity {
 
@@ -11,6 +14,14 @@ public class ProfilePageEdit extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_page_edit);
+        Button PEsave = (Button)this.findViewById(R.id.PEsaveBT);
+        PEsave.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(ProfilePageEdit.this.getBaseContext(), "Hey we're saving!", Toast.LENGTH_LONG);
+                /*add link to Profile or home page*/
+            }
+        });
     }
 
     @Override

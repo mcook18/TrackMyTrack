@@ -4,6 +4,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 public class SignUpScreen extends AppCompatActivity {
 
@@ -11,6 +14,15 @@ public class SignUpScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up_screen);
+
+        Button SUSignup = (Button)this.findViewById(R.id.SUSignupbt);
+        SUSignup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(SignUpScreen.this.getBaseContext(), "Hey we're making our account!", Toast.LENGTH_LONG);
+                /*add link to menu page*/
+            }
+        });
     }
 
     @Override
