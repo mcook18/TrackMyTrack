@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:text="SignUp"
         android:id="@+id/SignupButton"
-        android:layout_below="@+id/loginbutton"
+        android:layout_below="@+id/LoginButton"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="39dp" />
 
@@ -48,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Track my Track!"
+        android:text="Track My Track!"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"

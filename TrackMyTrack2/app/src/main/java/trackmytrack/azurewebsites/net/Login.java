@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+import android.content.Intent;
 
 public class Login extends AppCompatActivity {
 
@@ -20,16 +21,17 @@ public class Login extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Login.this.getBaseContext(),"Hey we're logging in!",Toast.LENGTH_LONG);
-                /*add link to menu page*/
+                Toast.makeText(Login.this.getBaseContext(), "Hey we're logging in!", Toast.LENGTH_LONG);
+                startActivity(new Intent(Login.this, Home.class));/*adds link to menu page*/
+
             }
         });
 
         Button signup = (Button)this.findViewById(R.id.SignupButton);
-        signup.setOnClickListener(new View.OnClickListener(){
+        signup.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-                Toast.makeText(Login.this.getBaseContext(),"Hey, we're going to the signup page!",Toast.LENGTH_LONG);
+            public void onClick(View v) {
+                Toast.makeText(Login.this.getBaseContext(), "Hey, we're going to the signup page!", Toast.LENGTH_LONG);
                 /*add link to signup page*/
             }
         });
