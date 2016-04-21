@@ -7,32 +7,32 @@
     tools:context="trackmytrack.azurewebsites.net.Home">
 
     <ImageButton
-        android:layout_width="169dp"
-        android:layout_height="169dp"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
         android:id="@+id/ProfileIB"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <ImageButton
-        android:layout_width="169dp"
-        android:layout_height="169dp"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
         android:id="@+id/TimerIB"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
     <ImageButton
-        android:layout_width="169dp"
-        android:layout_height="169dp"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
         android:id="@+id/StopwIB"
         android:layout_below="@+id/ProfileIB"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <ImageButton
-        android:layout_width="169dp"
-        android:layout_height="169dp"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
         android:id="@+id/RecordsIB"
         android:layout_alignTop="@+id/StopwIB"
         android:layout_alignParentRight="true"
@@ -47,19 +47,19 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignBottom="@+id/SettingsIB" />
+        android:layout_alignParentBottom="true" />
 
     <ImageButton
-        android:layout_width="169dp"
-        android:layout_height="169dp"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
         android:id="@+id/SettingsIB"
         android:layout_below="@+id/StopwIB"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <ImageButton
-        android:layout_width="169dp"
-        android:layout_height="169dp"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
         android:id="@+id/AddmoreIB"
         android:layout_below="@+id/RecordsIB"
         android:layout_alignRight="@+id/scrollView"
